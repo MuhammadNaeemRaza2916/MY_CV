@@ -7,7 +7,7 @@
 }
 body
 {
-    background:lightblue;
+    background:rgb(87, 89, 85);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,12 +224,4 @@ body
     color: #03a9f4;
     font-size: 18px;
     width: 20px;
-}
-@media (max-widht: 1000px)
-{
-    .container
-    {
-        margin: 10px;
-        grid-template-columns: repeat(1,1fr);
-    }
 }
